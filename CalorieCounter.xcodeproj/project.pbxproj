@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15EA909D1DDC1C1A004B8972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA909C1DDC1C1A004B8972 /* AppDelegate.swift */; };
+		15EA909F1DDC1C1A004B8972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA909E1DDC1C1A004B8972 /* ViewController.swift */; };
+		15EA90A21DDC1C1A004B8972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EA90A01DDC1C1A004B8972 /* Main.storyboard */; };
+		15EA90A41DDC1C1A004B8972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EA90A31DDC1C1A004B8972 /* Assets.xcassets */; };
+		15EA90A71DDC1C1A004B8972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EA90A51DDC1C1A004B8972 /* LaunchScreen.storyboard */; };
+		15EA90AC1DDC1C1A004B8972 /* CalorieCounter WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 15EA90AB1DDC1C1A004B8972 /* CalorieCounter WatchKit App.app */; };
+		15EA90B21DDC1C1A004B8972 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EA90B01DDC1C1A004B8972 /* Interface.storyboard */; };
+		15EA90B41DDC1C1A004B8972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EA90B31DDC1C1A004B8972 /* Assets.xcassets */; };
+		15EA90BB1DDC1C1A004B8972 /* CalorieCounter WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 15EA90BA1DDC1C1A004B8972 /* CalorieCounter WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		15EA90C21DDC1C1A004B8972 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA90C11DDC1C1A004B8972 /* InterfaceController.swift */; };
+		15EA90C41DDC1C1A004B8972 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA90C31DDC1C1A004B8972 /* ExtensionDelegate.swift */; };
+		15EA90C61DDC1C1B004B8972 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA90C51DDC1C1B004B8972 /* NotificationController.swift */; };
+		15EA90C81DDC1C1B004B8972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EA90C71DDC1C1B004B8972 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15EA90AD1DDC1C1A004B8972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15EA90911DDC1C1A004B8972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15EA90AA1DDC1C1A004B8972;
+			remoteInfo = "CalorieCounter WatchKit App";
+		};
+		15EA90BC1DDC1C1A004B8972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15EA90911DDC1C1A004B8972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15EA90B91DDC1C1A004B8972;
+			remoteInfo = "CalorieCounter WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15EA90CF1DDC1C1B004B8972 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				15EA90BB1DDC1C1A004B8972 /* CalorieCounter WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EA90D31DDC1C1B004B8972 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				15EA90AC1DDC1C1A004B8972 /* CalorieCounter WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		15EA90991DDC1C1A004B8972 /* CalorieCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorieCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EA909C1DDC1C1A004B8972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15EA909E1DDC1C1A004B8972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15EA90A11DDC1C1A004B8972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15EA90A31DDC1C1A004B8972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15EA90A61DDC1C1A004B8972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15EA90A81DDC1C1A004B8972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EA90AB1DDC1C1A004B8972 /* CalorieCounter WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalorieCounter WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EA90B11DDC1C1A004B8972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		15EA90B31DDC1C1A004B8972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15EA90B51DDC1C1A004B8972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EA90BA1DDC1C1A004B8972 /* CalorieCounter WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CalorieCounter WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EA90C01DDC1C1A004B8972 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		15EA90C11DDC1C1A004B8972 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		15EA90C31DDC1C1A004B8972 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		15EA90C51DDC1C1B004B8972 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		15EA90C71DDC1C1B004B8972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15EA90C91DDC1C1B004B8972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15EA90961DDC1C1A004B8972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EA90B71DDC1C1A004B8972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15EA90901DDC1C1A004B8972 = {
+			isa = PBXGroup;
+			children = (
+				15EA909B1DDC1C1A004B8972 /* CalorieCounter */,
+				15EA90AF1DDC1C1A004B8972 /* CalorieCounter WatchKit App */,
+				15EA90BE1DDC1C1A004B8972 /* CalorieCounter WatchKit Extension */,
+				15EA909A1DDC1C1A004B8972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15EA909A1DDC1C1A004B8972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15EA90991DDC1C1A004B8972 /* CalorieCounter.app */,
+				15EA90AB1DDC1C1A004B8972 /* CalorieCounter WatchKit App.app */,
+				15EA90BA1DDC1C1A004B8972 /* CalorieCounter WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15EA909B1DDC1C1A004B8972 /* CalorieCounter */ = {
+			isa = PBXGroup;
+			children = (
+				15EA909C1DDC1C1A004B8972 /* AppDelegate.swift */,
+				15EA909E1DDC1C1A004B8972 /* ViewController.swift */,
+				15EA90A01DDC1C1A004B8972 /* Main.storyboard */,
+				15EA90A31DDC1C1A004B8972 /* Assets.xcassets */,
+				15EA90A51DDC1C1A004B8972 /* LaunchScreen.storyboard */,
+				15EA90A81DDC1C1A004B8972 /* Info.plist */,
+			);
+			path = CalorieCounter;
+			sourceTree = "<group>";
+		};
+		15EA90AF1DDC1C1A004B8972 /* CalorieCounter WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				15EA90B01DDC1C1A004B8972 /* Interface.storyboard */,
+				15EA90B31DDC1C1A004B8972 /* Assets.xcassets */,
+				15EA90B51DDC1C1A004B8972 /* Info.plist */,
+			);
+			path = "CalorieCounter WatchKit App";
+			sourceTree = "<group>";
+		};
+		15EA90BE1DDC1C1A004B8972 /* CalorieCounter WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				15EA90C11DDC1C1A004B8972 /* InterfaceController.swift */,
+				15EA90C31DDC1C1A004B8972 /* ExtensionDelegate.swift */,
+				15EA90C51DDC1C1B004B8972 /* NotificationController.swift */,
+				15EA90C71DDC1C1B004B8972 /* Assets.xcassets */,
+				15EA90C91DDC1C1B004B8972 /* Info.plist */,
+				15EA90BF1DDC1C1A004B8972 /* Supporting Files */,
+			);
+			path = "CalorieCounter WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		15EA90BF1DDC1C1A004B8972 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15EA90C01DDC1C1A004B8972 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15EA90981DDC1C1A004B8972 /* CalorieCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EA90D41DDC1C1B004B8972 /* Build configuration list for PBXNativeTarget "CalorieCounter" */;
+			buildPhases = (
+				15EA90951DDC1C1A004B8972 /* Sources */,
+				15EA90961DDC1C1A004B8972 /* Frameworks */,
+				15EA90971DDC1C1A004B8972 /* Resources */,
+				15EA90D31DDC1C1B004B8972 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15EA90AE1DDC1C1A004B8972 /* PBXTargetDependency */,
+			);
+			name = CalorieCounter;
+			productName = CalorieCounter;
+			productReference = 15EA90991DDC1C1A004B8972 /* CalorieCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15EA90AA1DDC1C1A004B8972 /* CalorieCounter WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EA90D01DDC1C1B004B8972 /* Build configuration list for PBXNativeTarget "CalorieCounter WatchKit App" */;
+			buildPhases = (
+				15EA90A91DDC1C1A004B8972 /* Resources */,
+				15EA90CF1DDC1C1B004B8972 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15EA90BD1DDC1C1A004B8972 /* PBXTargetDependency */,
+			);
+			name = "CalorieCounter WatchKit App";
+			productName = "CalorieCounter WatchKit App";
+			productReference = 15EA90AB1DDC1C1A004B8972 /* CalorieCounter WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		15EA90B91DDC1C1A004B8972 /* CalorieCounter WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EA90CC1DDC1C1B004B8972 /* Build configuration list for PBXNativeTarget "CalorieCounter WatchKit Extension" */;
+			buildPhases = (
+				15EA90B61DDC1C1A004B8972 /* Sources */,
+				15EA90B71DDC1C1A004B8972 /* Frameworks */,
+				15EA90B81DDC1C1A004B8972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalorieCounter WatchKit Extension";
+			productName = "CalorieCounter WatchKit Extension";
+			productReference = 15EA90BA1DDC1C1A004B8972 /* CalorieCounter WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15EA90911DDC1C1A004B8972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "leapfrog-laxman";
+				TargetAttributes = {
+					15EA90981DDC1C1A004B8972 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
+					};
+					15EA90AA1DDC1C1A004B8972 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = N7DN9W93BF;
+						LastSwiftMigration = 0810;
+					};
+					15EA90B91DDC1C1A004B8972 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = 15EA90941DDC1C1A004B8972 /* Build configuration list for PBXProject "CalorieCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15EA90901DDC1C1A004B8972;
+			productRefGroup = 15EA909A1DDC1C1A004B8972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15EA90981DDC1C1A004B8972 /* CalorieCounter */,
+				15EA90AA1DDC1C1A004B8972 /* CalorieCounter WatchKit App */,
+				15EA90B91DDC1C1A004B8972 /* CalorieCounter WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15EA90971DDC1C1A004B8972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EA90A71DDC1C1A004B8972 /* LaunchScreen.storyboard in Resources */,
+				15EA90A41DDC1C1A004B8972 /* Assets.xcassets in Resources */,
+				15EA90A21DDC1C1A004B8972 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EA90A91DDC1C1A004B8972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EA90B41DDC1C1A004B8972 /* Assets.xcassets in Resources */,
+				15EA90B21DDC1C1A004B8972 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EA90B81DDC1C1A004B8972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EA90C81DDC1C1B004B8972 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15EA90951DDC1C1A004B8972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EA909F1DDC1C1A004B8972 /* ViewController.swift in Sources */,
+				15EA909D1DDC1C1A004B8972 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EA90B61DDC1C1A004B8972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EA90C61DDC1C1B004B8972 /* NotificationController.swift in Sources */,
+				15EA90C41DDC1C1A004B8972 /* ExtensionDelegate.swift in Sources */,
+				15EA90C21DDC1C1A004B8972 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15EA90AE1DDC1C1A004B8972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15EA90AA1DDC1C1A004B8972 /* CalorieCounter WatchKit App */;
+			targetProxy = 15EA90AD1DDC1C1A004B8972 /* PBXContainerItemProxy */;
+		};
+		15EA90BD1DDC1C1A004B8972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15EA90B91DDC1C1A004B8972 /* CalorieCounter WatchKit Extension */;
+			targetProxy = 15EA90BC1DDC1C1A004B8972 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15EA90A01DDC1C1A004B8972 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EA90A11DDC1C1A004B8972 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15EA90A51DDC1C1A004B8972 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EA90A61DDC1C1A004B8972 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		15EA90B01DDC1C1A004B8972 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EA90B11DDC1C1A004B8972 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15EA90CA1DDC1C1B004B8972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15EA90CB1DDC1C1B004B8972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15EA90CD1DDC1C1B004B8972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CalorieCounter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.CalorieCounter.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		15EA90CE1DDC1C1B004B8972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CalorieCounter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.CalorieCounter.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		15EA90D11DDC1C1B004B8972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = CalorieCounter_WatchKit_Extension;
+				INFOPLIST_FILE = "CalorieCounter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.CalorieCounter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		15EA90D21DDC1C1B004B8972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = CalorieCounter_WatchKit_Extension;
+				INFOPLIST_FILE = "CalorieCounter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.CalorieCounter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		15EA90D51DDC1C1B004B8972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalorieCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.CalorieCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		15EA90D61DDC1C1B004B8972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalorieCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.CalorieCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15EA90941DDC1C1A004B8972 /* Build configuration list for PBXProject "CalorieCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EA90CA1DDC1C1B004B8972 /* Debug */,
+				15EA90CB1DDC1C1B004B8972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EA90CC1DDC1C1B004B8972 /* Build configuration list for PBXNativeTarget "CalorieCounter WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EA90CD1DDC1C1B004B8972 /* Debug */,
+				15EA90CE1DDC1C1B004B8972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EA90D01DDC1C1B004B8972 /* Build configuration list for PBXNativeTarget "CalorieCounter WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EA90D11DDC1C1B004B8972 /* Debug */,
+				15EA90D21DDC1C1B004B8972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EA90D41DDC1C1B004B8972 /* Build configuration list for PBXNativeTarget "CalorieCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EA90D51DDC1C1B004B8972 /* Debug */,
+				15EA90D61DDC1C1B004B8972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15EA90911DDC1C1A004B8972 /* Project object */;
+}
